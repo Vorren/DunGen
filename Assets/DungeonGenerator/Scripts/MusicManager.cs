@@ -41,7 +41,7 @@ public class MusicManager : MonoBehaviour {
 		for(int i = 0; i < tracks.Length; i++)
 		{
 			GameObject newChannel = new GameObject("Channel " + i, typeof(AudioSource));
-			musicChannels[i] = newChannel.audio;
+			musicChannels[i] = newChannel.GetComponent<AudioSource>();
 		}
 	}
 	

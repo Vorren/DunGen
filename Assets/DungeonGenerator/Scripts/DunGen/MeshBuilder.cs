@@ -43,7 +43,7 @@ public class MeshBuilder {
 				wallObj.GetComponent<MeshFilter>().mesh = wallMesh;
 				wallObj.transform.parent = boxObj.transform;
 				wallObj.transform.localPosition = Vector3.Scale(room.roomBounds.extents, dir);
-				wallObj.renderer.material = roomStyle.materials[i];
+				wallObj.GetComponent<Renderer>().material = roomStyle.materials[i];
 				wallObj.GetComponent<MeshCollider>().sharedMesh = wallMesh;
 			}
 		}
