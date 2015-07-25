@@ -1,2 +1,51 @@
-Temp
-Library
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ====== #
+# Custom #
+# ====== #
+Assets/FullInspector2/Samples.meta
+Assets/FullInspector2/Samples/
+/Assets/FullInspector2_Generated/fiPersistentEditorStorage.prefab*
+/ios/
+/android/
+/webplayer/
+/osx.app/
+/windows/
+/Builds/
+
+# ====== #
+# logs   #
+# ====== #
+log.txt
